@@ -117,7 +117,7 @@
 	{
 		"phase": "${RELEASE_NAME}/${RELEASE_VERSION}/Dev",
 		"isDisabled": false,
-		"name": "A",
+		"name": "Create Change Request",
 		"kind": "Task",
 		"plugin": "ServiceNow/2.1",
 		"endpoint": "SNOW-Admin",
@@ -161,7 +161,7 @@
 	{
 		"phase": "${RELEASE_NAME}/${RELEASE_VERSION}/Test",
 		"isDisabled": false,
-		"name": "A",
+		"name": "Create Change Request",
 		"kind": "Task",
 		"plugin": "ServiceNow/2.1",
 		"endpoint": "SNOW-Admin",
@@ -205,7 +205,7 @@
 	{
 		"phase": "${RELEASE_NAME}/${RELEASE_VERSION}/Prodution",
 		"isDisabled": false,
-		"name": "A",
+		"name": "Create Change Request",
 		"kind": "Task",
 		"plugin": "ServiceNow/2.1",
 		"endpoint": "SNOW-Admin",
