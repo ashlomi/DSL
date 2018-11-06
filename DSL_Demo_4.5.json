@@ -129,7 +129,7 @@
 	},
 	{
 		"phase": "${RELEASE_NAME}/${RELEASE_VERSION}/Dev",
-		"previousTasks": ["A"],
+		"previousTasks": ["Create Change Request"],
 		"isDisabled": false,
 		"name": "Deploy Applications",
 		"kind": "Task",
@@ -173,7 +173,7 @@
 	},
 	{
 		"phase": "${RELEASE_NAME}/${RELEASE_VERSION}/Test",
-		"previousTasks": ["A"],
+		"previousTasks": ["Create Change Request"],
 		"isDisabled": false,
 		"name": "Deploy Applications",
 		"kind": "Task",
@@ -217,7 +217,7 @@
 	},
 	{
 		"phase": "${RELEASE_NAME}/${RELEASE_VERSION}/Prodution",
-		"previousTasks": ["A"],
+		"previousTasks": ["Create Change Request"],
 		"isDisabled": false,
 		"name": "Deploy Applications",
 		"kind": "Task",
